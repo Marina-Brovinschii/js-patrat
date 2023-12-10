@@ -1,0 +1,15 @@
+<script>
+    colorBox = prompt("Introdu numele culorii pentru patrat")
+    sizeBox = prompt("Introdu marimea, in pixeli, pentru patrat")
+    colorBorderBox = prompt("Introdu numele culoarii pentru bordura patratului")
+    sizeBorderBox = prompt("Introdu marimea bordurii, in pixeli, pentru patrat")
+
+    document.write(
+        `<div style="
+                background:${colorBox};
+                width:${sizeBox}px;
+                height:${sizeBox}px;
+                border: ${sizeBorderBox}px dashed ${colorBorderBox};">
+        <\div>`
+    )
+</script>
